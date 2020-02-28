@@ -1,0 +1,71 @@
+body
+{
+    text-align: center;
+    background-image: url(../auto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+.edit
+{
+    border: 2px solid white;
+    width: 350px;
+    height: 20px auto;
+    padding: 08px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 340px;
+    margin-left: 480px;
+    position: absolute;
+}
+#ex
+{
+  margin-top: 40px;
+  text-align: center;
+}
+#str,#Stop,#Reset,.ex
+{
+    width: 100px;
+    height: auto;
+    padding: 04px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 05px;
+    font-family: sans-serif;
+    font-style: italic;
+    color:black;
+    border-radius: 07px;
+}
+#signal
+{   
+    background-color: black;
+    border-radius: 50px;
+    position: absolute;
+    left: 600px;
+    height: auto;
+    margin: 30px auto; 
+    padding: 30px ;
+    width: auto;
+}
+#Red,#Yellow,#Green
+{
+    position: relative;
+    height: 65px;
+    width: 80px ;
+    margin-left: 4px;
+    margin-top: 7px;
+    background-color: wheat;
+    opacity: 1.0;
+    border-radius: 50%;
+}
+.circle:after
+{
+    border-right: 4px rgb(255, 0, 0);
+    border-radius: 50%;
+    width: 30px;
+    height: 41px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    content: "";
+}
